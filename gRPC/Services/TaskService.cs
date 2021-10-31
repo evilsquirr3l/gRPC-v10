@@ -9,7 +9,7 @@ namespace gRPC
 {
     public class TaskService : Tasks.TasksBase
     {
-        private List<string> _list = new List<string>
+        private List<string> _list = new()
         {
             "ФТП – получение списка файлов + передача файла с сервера на клиент.",
             @"Телнет. Создать программу, которая соединяется с указанным сервером
