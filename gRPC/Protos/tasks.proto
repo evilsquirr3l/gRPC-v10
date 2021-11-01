@@ -4,18 +4,14 @@ option csharp_namespace = "gRPC";
 
 package tasks;
 
-// The greeting service definition.
 service Tasks {
-  // Sends a greeting
   rpc SendRequest (Request) returns (Reply);
 }
 
-// The request message containing the user's name.
 message Request {
   int32 requestMessage = 1;
 }
 
-// The response message containing the greetings.
 message Reply {
   string replyMessage = 1;
 }
